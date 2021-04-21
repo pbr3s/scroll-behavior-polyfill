@@ -6,7 +6,7 @@ import {disableScrollSnap, DisableScrollSnapResult} from "../../util/disable-scr
  * The duration of a smooth scroll in ms
  * @type {number}
  */
-const SCROLL_TIME = 250;
+const SCROLL_TIME = (window as any).__SMOOTH_SCROLL_TIME__ || 250;
 
 /**
  * Performs a smooth repositioning of the scroll
