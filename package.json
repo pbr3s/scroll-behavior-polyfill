@@ -1,6 +1,6 @@
 {
   "name": "@fiit/scroll-behavior-polyfill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A polyfill for the 'scroll-behavior' CSS-property",
   "repository": {
     "type": "git",
